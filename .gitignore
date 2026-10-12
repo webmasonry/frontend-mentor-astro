@@ -1,0 +1,14 @@
+.DS_Store
+.astro/
+.design/
+.drizzle/
+.env
+.env.production
+.idea/
+.wrangler/
+dist/
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*

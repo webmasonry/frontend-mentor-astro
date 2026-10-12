@@ -1,0 +1,66 @@
+{
+  "author": {
+    "email": "webmasonry.github@gmail.com",
+    "name": "Matthew Mason"
+  },
+  "dependencies": {
+    "@astrojs/alpinejs": "^1.0.0",
+    "@astrojs/cloudflare": "^14.3.4",
+    "@astrojs/markdown-satteri": "^0.4.3",
+    "@astrojs/mdx": "^8.0.3",
+    "@astrojs/preact": "^6.0.6",
+    "@astrojs/react": "^7.0.1",
+    "@astrojs/sitemap": "^3.7.4",
+    "@astrojs/solid-js": "^7.0.2",
+    "@astrojs/svelte": "^9.0.1",
+    "@astrojs/vue": "^7.0.3",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/alpinejs": "^3.17.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@webmasonry/astro-css-debugger": "^1.0.0",
+    "alpinejs": "^3.17.4",
+    "astro": "^7.3.8",
+    "drizzle-orm": "^0.45.4",
+    "nanostores": "^1.5.5",
+    "preact": "^11.0.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "solid-js": "^1.9.17",
+    "svelte": "^5.57.2",
+    "tailwindcss": "^4.3.3",
+    "vue": "^3.5.43"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@playwright/test": "^1.64.0",
+    "@tsconfig/bases": "^1.0.28",
+    "@types/node": "^26.6.4",
+    "drizzle-kit": "^0.31.11",
+    "typescript": "6.0.3",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.3",
+    "wrangler": "^4.149.0"
+  },
+  "keywords": [
+    "AstroJS",
+    "Frontend Mentor"
+  ],
+  "license": "MIT",
+  "name": "@webmasonry/frontend-mentor-astro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webmasonry/frontend-mentor-astro.git"
+  },
+  "scripts": {
+    "biome": "biome",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "clean": "",
+    "create": "",
+    "format": "biome format .",
+    "lint": "biome check ."
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
