@@ -23,7 +23,7 @@
     },
     "formatter": {
       "delimiterSpacing": false,
-      "enabled": true,
+      "enabled": false,
       "indentStyle": "space",
       "indentWidth": 2,
       "lineEnding": "auto",
@@ -44,6 +44,7 @@
   "files": {
     "ignoreUnknown": true,
     "includes": [
+      "!./tmp",
       "**/*.astro",
       "**/*.css",
       "**/*.html",
@@ -59,7 +60,7 @@
     "bracketSameLine": false,
     "bracketSpacing": true,
     "delimiterSpacing": false,
-    "enabled": true,
+    "enabled": false,
     "expand": "auto",
     "formatWithErrors": true,
     "indentStyle": "space",
@@ -76,8 +77,8 @@
     "experimentalFullSupportEnabled": true,
     "formatter": {
       "attributePosition": "auto",
-      "bracketSameLine": false,
-      "enabled": true,
+      "bracketSameLine": true,
+      "enabled": false,
       "indentScriptAndStyle": true,
       "indentStyle": "space",
       "indentWidth": 2,
@@ -101,12 +102,12 @@
     },
     "experimentalEmbeddedSnippetsEnabled": true,
     "formatter": {
-      "arrowParentheses": "asNeeded",
+      "arrowParentheses": "always",
       "attributePosition": "auto",
-      "bracketSameLine": false,
+      "bracketSameLine": true,
       "bracketSpacing": true,
       "delimiterSpacing": false,
-      "enabled": true,
+      "enabled": false,
       "expand": "auto",
       "indentStyle": "space",
       "indentWidth": 2,
@@ -128,7 +129,7 @@
     "formatter": {
       "bracketSpacing": true,
       "delimiterSpacing": false,
-      "enabled": true,
+      "enabled": false,
       "expand": "auto",
       "indentStyle": "space",
       "indentWidth": 2,
@@ -151,62 +152,59 @@
       "drizzle": "all",
       "playwright": "all",
       "react": "all",
-      "solid": "all",
-      "svelte": "all",
       "tailwind": "all",
       "test": "all",
-      "types": "all",
-      "vue": "all"
+      "types": "all"
     },
     "enabled": true,
     "rules": {
-      "a11y": "error",
-      "complexity": "error",
-      "correctness": "error",
-      "nursery": "error",
-      "performance": "error",
-      "preset": "all",
-      "security": "error",
-      "style": "error",
-      "suspicious": "error"
+      "a11y": {
+        "recommended": true
+      },
+      "complexity": {
+        "recommended": true
+      },
+      "correctness": {
+        "recommended": true
+      },
+      "nursery": {
+        "recommended": true
+      },
+      "performance": {
+        "recommended": true
+      },
+      "preset": "recommended",
+      "security": {
+        "recommended": true
+      },
+      "style": {
+        "recommended": true
+      },
+      "suspicious": {
+        "recommended": true
+      }
     }
   },
   "overrides": [
     {
+      "assist": {
+        "actions": {
+          "source": {
+            "useSortedKeys": "off"
+          }
+        }
+      },
+      "formatter": {
+        "enabled": false
+      },
       "includes": ["**/*.astro"],
       "linter": {
         "rules": {
-          "nursery": {
-            "noTailwindArbitraryValue": {
-              "level": "off"
-            },
-            "noTailwindRawColors": {
-              "level": "off"
-            },
-            "noUndeclaredClasses": {
-              "level": "off"
-            },
-            "useExplicitType": {
-              "level": "off"
-            }
-          },
-          "style": {
-            "useNamingConvention": {
-              "level": "off"
-            }
-          }
-        }
-      }
-    },
-    {
-      "includes": ["**/*.css"],
-      "linter": {
-        "rules": {
-          "nursery": {
-            "useLayeredStyles": {
+          "suspicious": {
+            "noUnknownAttribute": {
               "level": "error",
               "options": {
-                "requireImportLayers": false
+                "ignore": ["class", "class:list", "set:html"]
               }
             }
           }
@@ -214,6 +212,15 @@
       }
     },
     {
+      "formatter": {
+        "enabled": false
+      },
+      "includes": ["**/*.css"]
+    },
+    {
+      "formatter": {
+        "enabled": false
+      },
       "includes": ["**/*.html"]
     },
     {
@@ -224,84 +231,39 @@
           }
         }
       },
+      "formatter": {
+        "enabled": false
+      },
       "includes": ["**/*.json"]
     },
     {
+      "formatter": {
+        "enabled": false
+      },
       "includes": ["**/*.svelte"]
     },
     {
-      "includes": ["**/*.ts"],
-      "linter": {
-        "rules": {
-          "complexity": {
-            "noImplicitCoercions": {
-              "level": "error",
-              "options": {
-                "allowDoubleNegation": true
-              }
-            }
-          },
-          "correctness": {
-            "noNodejsModules": {
-              "level": "off"
-            },
-            "noUndeclaredDependencies": {
-              "level": "off"
-            },
-            "noUnresolvedImports": {
-              "level": "off"
-            },
-            "useQwikValidLexicalScope": {
-              "level": "off"
-            }
-          },
-          "nursery": {
-            "useExplicitReturnType": {
-              "level": "off"
-            },
-            "useExplicitType": {
-              "level": "off"
-            }
-          },
-          "style": {
-            "noDefaultExport": {
-              "level": "off"
-            },
-            "noMagicNumbers": {
-              "level": "off"
-            },
-            "noNamespace": {
-              "level": "off"
-            },
-            "noProcessEnv": {
-              "level": "off"
-            },
-            "noTernary": {
-              "level": "off"
-            },
-            "useNamingConvention": {
-              "level": "off"
-            }
-          }
-        }
-      }
+      "formatter": {
+        "enabled": false
+      },
+      "includes": ["**/*.ts"]
     },
     {
-      "includes": ["**/*.d.ts"],
-      "linter": {
-        "rules": {
-          "correctness": {
-            "noUnusedVariables": {
-              "level": "off"
-            }
-          }
-        }
-      }
+      "formatter": {
+        "enabled": false
+      },
+      "includes": ["**/*.d.ts"]
     },
     {
+      "formatter": {
+        "enabled": false
+      },
       "includes": ["**/*.tsx"]
     },
     {
+      "formatter": {
+        "enabled": false
+      },
       "includes": ["**/*.vue"]
     }
   ],

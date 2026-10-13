@@ -1,9 +1,8 @@
 import cloudflare from "@astrojs/cloudflare";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
-import cssDebugger from "astro-css-debugger";
+import cssDebugger from "@webmasonry/astro-css-debugger";
 
-const domain = "https://www.template.com";
 export default defineConfig({
   adapter: cloudflare(),
   devToolbar: {
@@ -12,7 +11,7 @@ export default defineConfig({
   },
   fonts: [],
   integrations: [cssDebugger()],
-  site: domain,
+  site: "https://qr-code-component.webmasonry.workers.dev/",
   trailingSlash: "never",
   vite: {
     plugins: [tailwindcss()],

@@ -1,0 +1,24 @@
+{
+  "author": {
+    "email": "webmasonry.github@gmail.com",
+    "name": "Matthew Mason"
+  },
+  "name": "@webmasonry/qr-code-component",
+  "private": true,
+  "repository": {
+    "directory": "apps/qr-code-component",
+    "type": "git",
+    "url": "git+https://github.com/webmasonry/frontend-mentor-astro.git"
+  },
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build",
+    "dev": "astro dev",
+    "e2e": "playwright test",
+    "preview": "astro preview",
+    "test": "vitest",
+    "wrangler": "pnpm exec wrangler"
+  },
+  "type": "module",
+  "version": "1.1.0"
+}

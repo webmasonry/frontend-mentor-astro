@@ -8,10 +8,7 @@
       "path": "..",
     },
     {
-      "path": "../apps/_template",
-    },
-    {
-      "path": "../apps/blog-card-component",
+      "path": "../apps/qr-code-component",
     },
   ],
   "launch": {
