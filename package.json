@@ -82,10 +82,10 @@
   },
   "scripts": {
     "biome": "biome",
-    "format": "biome format --config-path ./biome.json",
-    "format:write": "biome format --config-path ./biome.json --write",
-    "lint": "biome check --config-path ./biome.json",
-    "lint:write": "biome check --config-path ./biome.json --write"
+    "format": "biome format --config-path ./biome.json package.json biome.json .vscode/webmasonry.code-workspace",
+    "format:write": "biome format --config-path ./biome.json --write package.json biome.json .vscode/webmasonry.code-workspace",
+    "lint": "biome check --config-path ./biome.json package.json biome.json .vscode/webmasonry.code-workspace",
+    "lint:write": "biome check --config-path ./biome.json --write package.json biome.json .vscode/webmasonry.code-workspace"
   },
   "type": "module",
   "version": "1.0.1"
