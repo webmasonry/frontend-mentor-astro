@@ -2,13 +2,11 @@
 
 .theme {
   /* Color Palette */
+  --blue-600: hsl(216, 95%, 58%);
   --slate-900: hsl(218, 44%, 22%);
   --slate-500: hsl(216, 15%, 48%);
   --slate-300: hsl(212, 45%, 89%);
   --white: hsl(0, 0%, 100%);
-  /* Typography */
-  --font-size-text-1: 22px;
-  --font-size-text-2: 15px;
 }
 
 @theme inline {
@@ -19,34 +17,4 @@
   --color-white: var(--white);
   /* Fonts */
   --font-outfit: var(--font-outfit);
-}
-
-@layer components {
-  /* Text Styles 1 */
-  .text-1 {
-    font-family: var(--font-outfit);
-    font-size: var(--font-size-text-1, 22px);
-    font-style: normal;
-    font-weight: 700;
-    font-feature-settings:
-      "liga" off,
-      "clig" off;
-    line-height: 120%;
-    color: var(--slate-900, hsl(218, 44%, 22%));
-    letter-spacing: 0px;
-  }
-
-  /* Text Style 2 */
-  .text-2 {
-    font-family: var(--font-outfit);
-    font-size: var(--font-size-text-2, 15px);
-    font-style: normal;
-    font-weight: 400;
-    font-feature-settings:
-      "liga" off,
-      "clig" off;
-    line-height: 140%;
-    color: var(--slate-900, hsl(218, 44%, 22%));
-    letter-spacing: 0.2px;
-  }
 }

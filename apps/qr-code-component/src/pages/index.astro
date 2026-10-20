@@ -1,7 +1,10 @@
 ---
 import "@/styles/global.css";
 
-import { Font } from "astro:assets";
+import { Font, Image, type LocalImageProps } from "astro:assets";
+import ImageQRCode from "@/assets/resources/image-qr-code.png";
+
+export const prerender = true;
 ---
 
 <html class="theme" lang="en">
@@ -13,5 +16,43 @@ import { Font } from "astro:assets";
     <Font cssVariable="--font-outfit" />
     <link href="/favicon-32x32.png" rel="icon" type="image/png" />
   </head>
-  <body class=""></body>
+  <body class:list={["bg-slate-300 min-h-dvh grid place-content-center"]}>
+    <section
+      class:list={[
+        "bg-white p-4 pb-10 rounded-[20px]",
+        "shadow-[0_25px_25px_0_rgba(0,0,0,0.05)]",
+      ]}
+    >
+      <Image
+        alt="QR Code"
+        aria-hidden="true"
+        height={288}
+        src={ImageQRCode as unknown as LocalImageProps["src"]}
+        width={288}
+        class:list={["rounded-[10px]"]}
+      />
+      <div class:list={["max-w-[288px] mt-6"]}>
+        <h1
+          class:list={[
+            "text-slate-900 text-center font-outfit text-[22px] not-italic",
+            "font-bold leading-6.5 mb-4",
+          ]}
+        >
+          Improve your front-end skills by building projects
+        </h1>
+        <p
+          class:list={[
+            "text-slate-500 text-center font-outfit text-[15px] not-italic",
+            "leading-[140%] tracking-[0.2px]",
+          ]}
+        >
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </section>
+  </body>
 </html>
+
+<script>
+</script>
