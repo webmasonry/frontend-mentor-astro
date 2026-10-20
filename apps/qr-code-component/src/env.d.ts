@@ -9,7 +9,7 @@ interface ImportMetaEnv {
   readonly DOMAIN: string;
 }
 
+// biome-ignore lint/correctness/noUnusedVariables: ImportMetaEnv is used for type declarations only
 interface ImportMeta {
   readonly env: ImportMetaEnv;
 }
-

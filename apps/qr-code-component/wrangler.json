@@ -1,8 +1,8 @@
 {
   "$schema": "../../node_modules/wrangler/config-schema.json",
   "assets": {
-    "directory": "./dist",
+    "directory": "./dist"
   },
   "compatibility_date": "2026-10-13",
-  "name": "qr-code-component"
+  "name": "qr-code-component-astro"
 }

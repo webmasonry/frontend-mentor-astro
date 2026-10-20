@@ -1,4 +1,15 @@
 {
+  "compilerOptions": {
+    "paths": {
+      "@/assets/*": ["./src/assets/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/layouts/*": ["./src/layouts/*"],
+      "@/libs/*": ["./src/libs/*"],
+      "@/pages/*": ["./src/pages/*"],
+      "@/scripts/*": ["./src/scripts/*"],
+      "@/styles/*": ["./src/styles/*"]
+    }
+  },
   "exclude": ["dist"],
   "extends": "../../node_modules/astro/tsconfigs/strictest.json",
   "include": ["**/*", "./.astro/types.d.ts", "./worker-configuration.d.ts"]

@@ -1,4 +1,5 @@
 allowBuilds:
+  "@parcel/watcher": true
   esbuild: true
   sharp: true
   unrs-resolver: true
@@ -12,4 +13,5 @@ minimumReleaseAgeExclude:
   - wrangler@4.149.0
 packages:
   - "./apps/*"
+  - "./backend/*"
   - "./packages/*"

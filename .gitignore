@@ -5,6 +5,8 @@
 .env
 .env.production
 .idea/
+.vars
+.vars.production
 .wrangler/
 dist/
 node_modules/

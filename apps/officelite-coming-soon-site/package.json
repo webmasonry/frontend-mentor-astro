@@ -1,0 +1,30 @@
+{
+  "author": {
+    "email": "webmasonry.github@gmail.com",
+    "name": "Matthew Mason"
+  },
+  "name": "@webmasonry/officelite-coming-soon-site",
+  "private": true,
+  "repository": {
+    "directory": "apps/officelite-coming-soon-site",
+    "type": "git",
+    "url": "git+https://github.com/webmasonry/frontend-mentor-astro.git"
+  },
+  "scripts": {
+    "astro": "astro",
+    "biome": "biome",
+    "build": "astro build",
+    "dev": "astro dev",
+    "e2e": "playwright test",
+    "format": "biome format --config-path ./biome.json",
+    "format:write": "biome format --config-path ./biome.json --write",
+    "lint": "biome check --config-path ./biome.json",
+    "lint:write": "biome check --config-path ./biome.json --write",
+    "preview": "astro preview",
+    "sync": "astro sync && wrangler types",
+    "test": "vitest",
+    "wrangler": "wrangler"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

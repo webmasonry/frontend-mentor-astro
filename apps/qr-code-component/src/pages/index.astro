@@ -1,12 +1,17 @@
 ---
+import "@/styles/global.css";
+
+import { Font } from "astro:assets";
 ---
 
-<html lang="en">
+<html class="theme" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width" name="viewport" />
     <meta content={Astro.generator} name="generator" />
     <title>Frontend Mentor - QR Code Component</title>
+    <Font cssVariable="--font-outfit" />
+    <link href="/favicon-32x32.png" rel="icon" type="image/png" />
   </head>
-  <body></body>
+  <body class=""></body>
 </html>

@@ -2,138 +2,60 @@
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "assist": {
     "actions": {
-      "preset": "all",
       "source": {
         "noDuplicateClasses": "on",
         "organizeImports": "on",
+        "preset": "recommended",
         "useSortedAttributes": "on",
         "useSortedEnumMembers": "on",
         "useSortedInterfaceMembers": "on",
         "useSortedKeys": "on",
-        "useSortedPackageJson": "on",
+        "useSortedPackageJson": "off",
         "useSortedProperties": "on",
         "useSortedSelectionSet": "on",
         "useSortedTypeFields": "on"
       }
-    }
-  },
-  "css": {
-    "assist": {
-      "enabled": true
     },
-    "formatter": {
-      "delimiterSpacing": false,
-      "enabled": false,
-      "indentStyle": "space",
-      "indentWidth": 2,
-      "lineEnding": "auto",
-      "lineWidth": 80,
-      "quoteStyle": "single",
-      "trailingNewline": true
-    },
-    "globals": [],
-    "linter": {
-      "enabled": true
-    },
-    "parser": {
-      "allowWrongLineComments": true,
-      "cssModules": true,
-      "tailwindDirectives": true
-    }
+    "enabled": true
   },
   "files": {
-    "ignoreUnknown": true,
     "includes": [
-      "!./tmp",
-      "**/*.astro",
-      "**/*.css",
-      "**/*.html",
-      "**/*.json",
-      "**/*.svelte",
-      "**/*.ts",
-      "**/*.tsx",
-      "**/*.vue"
+      "./**",
+      "!.astro",
+      "!.wrangler",
+      "!dist",
+      "!node_modules",
+      "!src/assets",
+      "!worker-configuration.d.ts"
     ]
   },
   "formatter": {
     "attributePosition": "auto",
     "bracketSameLine": false,
-    "bracketSpacing": true,
+    "bracketSpacing": false,
     "delimiterSpacing": false,
-    "enabled": false,
+    "enabled": true,
     "expand": "auto",
-    "formatWithErrors": true,
+    "formatWithErrors": false,
     "indentStyle": "space",
     "indentWidth": 2,
-    "lineEnding": "auto",
+    "lineEnding": "lf",
     "lineWidth": 80,
     "trailingNewline": true,
     "useEditorconfig": false
-  },
-  "html": {
-    "assist": {
-      "enabled": true
-    },
-    "experimentalFullSupportEnabled": true,
-    "formatter": {
-      "attributePosition": "auto",
-      "bracketSameLine": true,
-      "enabled": false,
-      "indentScriptAndStyle": true,
-      "indentStyle": "space",
-      "indentWidth": 2,
-      "lineEnding": "auto",
-      "lineWidth": 80,
-      "selfCloseVoidElements": "always",
-      "trailingNewline": true,
-      "whitespaceSensitivity": "strict"
-    },
-    "linter": {
-      "enabled": true
-    },
-    "parser": {
-      "interpolation": true,
-      "vue": true
-    }
-  },
-  "javascript": {
-    "assist": {
-      "enabled": true
-    },
-    "experimentalEmbeddedSnippetsEnabled": true,
-    "formatter": {
-      "arrowParentheses": "always",
-      "attributePosition": "auto",
-      "bracketSameLine": true,
-      "bracketSpacing": true,
-      "delimiterSpacing": false,
-      "enabled": false,
-      "expand": "auto",
-      "indentStyle": "space",
-      "indentWidth": 2,
-      "jsxQuoteStyle": "double",
-      "lineEnding": "auto",
-      "lineWidth": 80,
-      "operatorLinebreak": "after",
-      "quoteProperties": "asNeeded",
-      "quoteStyle": "double",
-      "semicolons": "always",
-      "trailingCommas": "all",
-      "trailingNewline": true
-    }
   },
   "json": {
     "assist": {
       "enabled": true
     },
     "formatter": {
-      "bracketSpacing": true,
+      "bracketSpacing": false,
       "delimiterSpacing": false,
-      "enabled": false,
+      "enabled": true,
       "expand": "auto",
       "indentStyle": "space",
       "indentWidth": 2,
-      "lineEnding": "auto",
+      "lineEnding": "lf",
       "lineWidth": 80,
       "trailingCommas": "none",
       "trailingNewline": true
@@ -142,136 +64,14 @@
       "enabled": true
     },
     "parser": {
-      "allowComments": true,
+      "allowComments": false,
       "allowTrailingCommas": false
     }
   },
-  "linter": {
-    "domains": {
-      "astro": "all",
-      "drizzle": "all",
-      "playwright": "all",
-      "react": "all",
-      "tailwind": "all",
-      "test": "all",
-      "types": "all"
-    },
-    "enabled": true,
-    "rules": {
-      "a11y": {
-        "recommended": true
-      },
-      "complexity": {
-        "recommended": true
-      },
-      "correctness": {
-        "recommended": true
-      },
-      "nursery": {
-        "recommended": true
-      },
-      "performance": {
-        "recommended": true
-      },
-      "preset": "recommended",
-      "security": {
-        "recommended": true
-      },
-      "style": {
-        "recommended": true
-      },
-      "suspicious": {
-        "recommended": true
-      }
-    }
-  },
-  "overrides": [
-    {
-      "assist": {
-        "actions": {
-          "source": {
-            "useSortedKeys": "off"
-          }
-        }
-      },
-      "formatter": {
-        "enabled": false
-      },
-      "includes": ["**/*.astro"],
-      "linter": {
-        "rules": {
-          "suspicious": {
-            "noUnknownAttribute": {
-              "level": "error",
-              "options": {
-                "ignore": ["class", "class:list", "set:html"]
-              }
-            }
-          }
-        }
-      }
-    },
-    {
-      "formatter": {
-        "enabled": false
-      },
-      "includes": ["**/*.css"]
-    },
-    {
-      "formatter": {
-        "enabled": false
-      },
-      "includes": ["**/*.html"]
-    },
-    {
-      "assist": {
-        "actions": {
-          "source": {
-            "useSortedPackageJson": "off"
-          }
-        }
-      },
-      "formatter": {
-        "enabled": false
-      },
-      "includes": ["**/*.json"]
-    },
-    {
-      "formatter": {
-        "enabled": false
-      },
-      "includes": ["**/*.svelte"]
-    },
-    {
-      "formatter": {
-        "enabled": false
-      },
-      "includes": ["**/*.ts"]
-    },
-    {
-      "formatter": {
-        "enabled": false
-      },
-      "includes": ["**/*.d.ts"]
-    },
-    {
-      "formatter": {
-        "enabled": false
-      },
-      "includes": ["**/*.tsx"]
-    },
-    {
-      "formatter": {
-        "enabled": false
-      },
-      "includes": ["**/*.vue"]
-    }
-  ],
-  "plugins": [],
   "root": true,
   "vcs": {
     "clientKind": "git",
-    "enabled": true,
-    "useIgnoreFile": true
+    "enabled": false,
+    "useIgnoreFile": false
   }
 }

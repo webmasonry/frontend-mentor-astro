@@ -1,81 +1,405 @@
 {
   "extensions": {
     "recommendations": [],
-    "unwantedRecommendations": [],
+    "unwantedRecommendations": []
   },
   "folders": [
     {
-      "path": "..",
+      "path": ".."
     },
     {
-      "path": "../apps/qr-code-component",
+      "path": "../apps/advice-generator-app"
     },
+    {
+      "path": "../apps/age-calculator-app"
+    },
+    {
+      "path": "../apps/arch-studio-website"
+    },
+    {
+      "path": "../apps/art-gallery-website"
+    },
+    {
+      "path": "../apps/article-preview-component"
+    },
+    {
+      "path": "../apps/audiophile-ecommerce-website"
+    },
+    {
+      "path": "../apps/base-apparel-coming-soon-page"
+    },
+    {
+      "path": "../apps/bento-grid"
+    },
+    {
+      "path": "../apps/blog-preview-card"
+    },
+    {
+      "path": "../apps/blogr-landing-page"
+    },
+    {
+      "path": "../apps/body-mass-index-calculator"
+    },
+    {
+      "path": "../apps/bookmark-landing-page"
+    },
+    {
+      "path": "../apps/calculator-app"
+    },
+    {
+      "path": "../apps/chat-app-css-illustration"
+    },
+    {
+      "path": "../apps/clipboard-landing-page"
+    },
+    {
+      "path": "../apps/clock-app"
+    },
+    {
+      "path": "../apps/coding-bootcamp-testimonials-slider"
+    },
+    {
+      "path": "../apps/connect-four-game"
+    },
+    {
+      "path": "../apps/contact-form"
+    },
+    {
+      "path": "../apps/creative-single-page-site"
+    },
+    {
+      "path": "../apps/crowdfunding-product-page"
+    },
+    {
+      "path": "../apps/designo-agency-website"
+    },
+    {
+      "path": "../apps/devjobs-web-app"
+    },
+    {
+      "path": "../apps/dictionary-web-app"
+    },
+    {
+      "path": "../apps/dine-website"
+    },
+    {
+      "path": "../apps/easybank-landing-page"
+    },
+    {
+      "path": "../apps/ecommerce-product-page"
+    },
+    {
+      "path": "../apps/entertainment-web-app"
+    },
+    {
+      "path": "../apps/equalizer-landing-page"
+    },
+    {
+      "path": "../apps/expenses-chart-component"
+    },
+    {
+      "path": "../apps/faq-accordion"
+    },
+    {
+      "path": "../apps/four-card-feature-section"
+    },
+    {
+      "path": "../apps/frontend-quiz-app"
+    },
+    {
+      "path": "../apps/fylo-data-storage-component"
+    },
+    {
+      "path": "../apps/fylo-landing-page-with-dark-theme-and-features-grid"
+    },
+    {
+      "path": "../apps/fylo-landing-page-with-two-column-layout"
+    },
+    {
+      "path": "../apps/galleria-slideshow-site"
+    },
+    {
+      "path": "../apps/github-user-search-app"
+    },
+    {
+      "path": "../apps/hangman-game"
+    },
+    {
+      "path": "../apps/huddle-landing-page-with-alternating-feature-blocks"
+    },
+    {
+      "path": "../apps/huddle-landing-page-with-curved-sections"
+    },
+    {
+      "path": "../apps/huddle-landing-page-with-single-introductory-section"
+    },
+    {
+      "path": "../apps/in-browser-markdown-editor"
+    },
+    {
+      "path": "../apps/insure-landing-page"
+    },
+    {
+      "path": "../apps/interactive-card-details-form"
+    },
+    {
+      "path": "../apps/interactive-comments-section"
+    },
+    {
+      "path": "../apps/interactive-pricing-component"
+    },
+    {
+      "path": "../apps/interactive-rating-component"
+    },
+    {
+      "path": "../apps/intro-component-with-sign-up-form"
+    },
+    {
+      "path": "../apps/intro-section-with-dropdown-navigation"
+    },
+    {
+      "path": "../apps/invoice-app"
+    },
+    {
+      "path": "../apps/ip-address-tracker"
+    },
+    {
+      "path": "../apps/job-listings"
+    },
+    {
+      "path": "../apps/kanban-task-management-web-app"
+    },
+    {
+      "path": "../apps/launch-countdown-timer"
+    },
+    {
+      "path": "../apps/link-sharing-app"
+    },
+    {
+      "path": "../apps/loopstudios-landing-page"
+    },
+    {
+      "path": "../apps/maker-pre-launch-landing-page"
+    },
+    {
+      "path": "../apps/manage-landing-page"
+    },
+    {
+      "path": "../apps/meet-landing-page"
+    },
+    {
+      "path": "../apps/memory-game"
+    },
+    {
+      "path": "../apps/minimalist-portfolio"
+    },
+    {
+      "path": "../apps/mortgage-repayment-calculator"
+    },
+    {
+      "path": "../apps/multi-step-form"
+    },
+    {
+      "path": "../apps/myteam-website"
+    },
+    {
+      "path": "../apps/news-homepage"
+    },
+    {
+      "path": "../apps/newsletter-sign-up-with-success-message"
+    },
+    {
+      "path": "../apps/nft-preview-card-component"
+    },
+    {
+      "path": "../apps/note-taking-web-app"
+    },
+    {
+      "path": "../apps/notifications-page"
+    },
+    {
+      "path": "../apps/officelite-coming-soon-site"
+    },
+    {
+      "path": "../apps/order-summary-component"
+    },
+    {
+      "path": "../apps/password-generator-app"
+    },
+    {
+      "path": "../apps/payapi-website"
+    },
+    {
+      "path": "../apps/personal-finance-app"
+    },
+    {
+      "path": "../apps/photosnap-website"
+    },
+    {
+      "path": "../apps/ping-coming-soon-page"
+    },
+    {
+      "path": "../apps/planets-fact-site"
+    },
+    {
+      "path": "../apps/pod-request-access-landing-page"
+    },
+    {
+      "path": "../apps/pomodoro-app"
+    },
+    {
+      "path": "../apps/pricing-component-with-toggle"
+    },
+    {
+      "path": "../apps/product-feedback-app"
+    },
+    {
+      "path": "../apps/product-list-with-cart"
+    },
+    {
+      "path": "../apps/product-preview-card-component"
+    },
+    {
+      "path": "../apps/profile-card-component"
+    },
+    {
+      "path": "../apps/project-tracking-intro-component"
+    },
+    {
+      "path": "../apps/qr-code-component"
+    },
+    {
+      "path": "../apps/recipe-page"
+    },
+    {
+      "path": "../apps/rest-countries-api-with-color-theme-switcher"
+    },
+    {
+      "path": "../apps/results-summary-component"
+    },
+    {
+      "path": "../apps/rock-paper-scissors"
+    },
+    {
+      "path": "../apps/room-homepage"
+    },
+    {
+      "path": "../apps/scoot-website"
+    },
+    {
+      "path": "../apps/single-page-design-portfolio"
+    },
+    {
+      "path": "../apps/single-page-developer-portfolio"
+    },
+    {
+      "path": "../apps/single-price-grid-component"
+    },
+    {
+      "path": "../apps/skilled-elearning-landing-page"
+    },
+    {
+      "path": "../apps/social-links-profile"
+    },
+    {
+      "path": "../apps/social-media-dashboard-with-theme-switcher"
+    },
+    {
+      "path": "../apps/social-proof-section"
+    },
+    {
+      "path": "../apps/space-tourism-website"
+    },
+    {
+      "path": "../apps/stats-preview-card-component"
+    },
+    {
+      "path": "../apps/suite-landing-page"
+    },
+    {
+      "path": "../apps/sunnyside-agency-landing-page"
+    },
+    {
+      "path": "../apps/testimonials-grid-section"
+    },
+    {
+      "path": "../apps/three-column-preview-card-component"
+    },
+    {
+      "path": "../apps/tic-tac-toe"
+    },
+    {
+      "path": "../apps/time-tracking-dashboard"
+    },
+    {
+      "path": "../apps/tip-calculator-app"
+    },
+    {
+      "path": "../apps/todo-app"
+    },
+    {
+      "path": "../apps/typemaster-pre-launch-landing-page"
+    },
+    {
+      "path": "../apps/url-shortening-api-landing-page"
+    },
+    {
+      "path": "../apps/workit-landing-page"
+    }
   ],
   "launch": {
     "compounds": [
       {
-        "configurations": ["Astro Dev", "Astro Browser"],
-        "name": "Astro + Integrated Browser",
-      },
+        "configurations": ["astro-dev", "astro-browser"],
+        "name": "astro"
+      }
     ],
     "configurations": [
       {
         "command": "npm run dev",
         "cwd": "${fileWorkspaceFolder}",
-        "name": "Astro Dev",
+        "name": "astro-dev",
         "request": "launch",
-        "type": "node-terminal",
+        "type": "node-terminal"
       },
       {
-        "name": "Astro Browser",
+        "name": "astro-browser",
         "request": "launch",
         "sourceMaps": true,
         "type": "editor-browser",
         "url": "http://localhost:4321",
-        "webRoot": "${fileWorkspaceFolder}",
-      },
+        "webRoot": "${fileWorkspaceFolder}"
+      }
     ],
-    "version": "0.2.0",
+    "version": "0.2.0"
   },
   "settings": {
     "[astro]": {
-      "editor.defaultFormatter": "biomejs.biome",
+      "editor.defaultFormatter": "biomejs.biome"
     },
     "[css]": {
-      "editor.defaultFormatter": "biomejs.biome",
+      "editor.defaultFormatter": "biomejs.biome"
     },
     "[javascript]": {
-      "editor.defaultFormatter": "biomejs.biome",
+      "editor.defaultFormatter": "biomejs.biome"
     },
     "[json]": {
-      "editor.defaultFormatter": "biomejs.biome",
+      "editor.defaultFormatter": "biomejs.biome"
     },
     "[jsonc]": {
-      "editor.defaultFormatter": "biomejs.biome",
+      "editor.defaultFormatter": "biomejs.biome"
     },
     "[typescript]": {
-      "editor.defaultFormatter": "biomejs.biome",
+      "editor.defaultFormatter": "biomejs.biome"
     },
     "[typescriptreact]": {
-      "editor.defaultFormatter": "biomejs.biome",
+      "editor.defaultFormatter": "biomejs.biome"
     },
     "[vue]": {
-      "editor.defaultFormatter": "biomejs.biome",
+      "editor.defaultFormatter": "biomejs.biome"
     },
-    "autoRestart.fileGlobForESLint": [
-      "**/.eslintrc.{js,cjs,mjs,yaml,yml,json}",
-      "**/.git/HEAD",
-      "**/eslint.config.{js,cjs,mjs}",
-      "**/tools/eslint/**",
-    ],
-    "autoRestart.fileGlobForTypescript": [
-      "**/.git/HEAD",
-      "**/tools/tsconfigs/**",
-      "**/tsconfig.{json,app.json,app.js,js,ts}",
-    ],
     "biome.enabled": true,
     "biome.lsp.trace.server": "verbose",
-    "biome.runFromTemporaryLocation": false,
     "chat.checkpoints.enabled": true,
     "chat.checkpoints.showFileChanges": true,
     "chat.editing.autoAcceptDelay": 0,
@@ -87,82 +411,86 @@
     "chat.tools.todos.showWidget": true,
     "chat.viewSessions.orientation": "stacked",
     "css.lint.unknownAtRules": "ignore",
+    "debug.toolBarLocation": "commandCenter",
     "editor.codeActionsOnSave": {
       "source.addMissingImports.ts": "never",
-      "source.addTypeAnnotation": "never",
-      "source.aiTypeAnnotations": "never",
       "source.biome": "explicit",
-      "source.convertImportFormat": "never",
-      "source.convertImportStar": "never",
-      "source.convertImportToModule": "never",
+      "source.fixAll": "never",
       "source.fixAll.biome": "explicit",
-      "source.fixAll.eslint": "never",
       "source.fixAll.prettier": "never",
-      "source.fixAll.pylance": "never",
-      "source.fixAll.ruff": "never",
       "source.fixAll.sortJSON": "never",
       "source.fixAll.ts": "never",
-      "source.optionalMemberAccessAssert": "never",
+      "source.organizeImports": "never",
       "source.organizeImports.biome": "explicit",
-      "source.organizeImports.ruff": "never",
-      "source.organizeLinkDefinitions": "never",
       "source.removeUnused.ts": "never",
       "source.removeUnusedImports": "never",
-      "source.renameShadowedStdlibImports": "never",
       "source.sort.json": "never",
-      "source.sortImports": "never",
-      "source.unusedImports": "never",
+      "source.sortImports": "never"
     },
     "editor.colorDecorators": true,
     "editor.detectIndentation": false,
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
     "editor.formatOnPaste": false,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
-    "editor.formatOnType": true,
+    "editor.formatOnType": false,
+    "editor.lightbulb.enabled": "onCode",
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
     "editor.rulers": [80],
     "editor.tabSize": 2,
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
     "emmet.includeLanguages": {
       "astro": "html",
+      "svelte": "html",
+      "vue": "html"
     },
-    "eslint.enable": false,
-    "eslint.validate": [
-      "astro",
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact",
-    ],
+    "evenBetterToml.schema.associations": {
+      "alacritty\\.toml$": "https://githubusercontent.com"
+    },
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
+    "figma.autocompleteBlocks": true,
+    "figma.autocompleteProperties": true,
+    "files.associations": {
+      "**/i3/config": "i3",
+      "**/i3blocks/config": "i3",
+      "**/i3status/config": "i3"
+    },
     "github.copilot.enable": {
-      "*": true,
+      "*": false,
+      "**/.astro/**": false,
+      "**/.drizzle/**": false,
+      "**/.wrangler/**": false,
       "**/build/**": false,
       "**/dist/**": false,
       "**/node_modules/**": false,
+      "markdown": false,
+      "plaintext": false,
+      "scminput": false
     },
     "github.copilot.nextEditSuggestions.enabled": true,
     "js/ts.autoClosingTags.enabled": true,
     "js/ts.format.enabled": true,
-    "js/ts.implementationsCodeLens.enabled": true,
-    "js/ts.implementationsCodeLens.showOnAllClassMethods": true,
+    "js/ts.implementationsCodeLens.enabled": false,
+    "js/ts.implementationsCodeLens.showOnAllClassMethods": false,
     "js/ts.inlayHints.enumMemberValues.enabled": false,
     "js/ts.inlayHints.functionLikeReturnTypes.enabled": false,
-    "js/ts.inlayHints.parameterNames.enabled": "all",
-    "js/ts.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+    "js/ts.inlayHints.parameterNames.enabled": "none",
+    "js/ts.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
     "js/ts.inlayHints.parameterTypes.enabled": false,
     "js/ts.inlayHints.propertyDeclarationTypes.enabled": false,
     "js/ts.inlayHints.variableTypes.enabled": false,
-    "js/ts.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+    "js/ts.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
     "js/ts.suggest.autoImports": true,
     "js/ts.suggest.classMemberSnippets.enabled": true,
     "js/ts.suggest.enabled": true,
     "js/ts.suggest.jsdoc.enabled": true,
     "js/ts.suggest.jsdoc.generateReturns": true,
     "js/ts.suggestionActions.enabled": true,
-    "js/ts.tsdk.path": "node_modules\\typescript\\lib",
     "js/ts.updateImportsOnFileMove.enabled": "always",
     "js/ts.updateImportsOnPaste.enabled": true,
     "js/ts.validate.enabled": true,
@@ -175,8 +503,11 @@
       "https://raw.githubusercontent.com/devcontainers/spec/": true,
       "https://raw.githubusercontent.com/microsoft/vscode/": true,
       "https://schemastore.azurewebsites.net/": true,
-      "https://www.schemastore.org/": true,
+      "https://www.schemastore.org/": true
     },
+    "prettier.arrowParens": "always",
+    "prettier.bracketSameLine": false,
+    "prettier.bracketSpacing": true,
     "prettier.documentSelectors": [
       "**/*.astro",
       "**/*.css",
@@ -192,11 +523,65 @@
       "**/*.tsx",
       "**/*.vue",
       "**/*.yaml",
-      "**/*.yml",
+      "**/*.yml"
     ],
-    "prettier.enable": false,
-    "tailwindCSS.lint.suggestCanonicalClasses": "ignore",
+    "prettier.embeddedLanguageFormatting": "auto",
+    "prettier.enable": true,
+    "prettier.enableDebugLogs": false,
+    "prettier.endOfLine": "lf",
+    "prettier.experimentalOperatorPosition": "end",
+    "prettier.experimentalTernaries": false,
+    "prettier.htmlWhitespaceSensitivity": "css",
+    "prettier.ignorePath": ".prettierignore",
+    "prettier.insertPragma": false,
+    "prettier.jsxSingleQuote": false,
+    "prettier.objectWrap": "preserve",
+    "prettier.printWidth": 80,
+    "prettier.proseWrap": "preserve",
+    "prettier.quoteProps": "as-needed",
+    "prettier.requireConfig": false,
+    "prettier.requirePragma": false,
+    "prettier.resolveGlobalModules": false,
+    "prettier.semi": true,
+    "prettier.singleAttributePerLine": false,
+    "prettier.singleQuote": false,
+    "prettier.tabWidth": 2,
+    "prettier.trailingComma": "none",
+    "prettier.useEditorConfig": true,
+    "prettier.useTabs": false,
+    "prettier.vueIndentScriptAndStyle": false,
+    "prettier.withNodeModules": false,
+    "tailwindCSS.classAttributes": [
+      "class",
+      "className",
+      "ngClass",
+      "class:list"
+    ],
+    "tailwindCSS.codeActions": true,
+    "tailwindCSS.codeLens": true,
+    "tailwindCSS.colorDecorators": true,
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.hovers": true,
+    "tailwindCSS.lint.cssConflict": "warning",
+    "tailwindCSS.lint.deprecatedAtRule": "warning",
+    "tailwindCSS.lint.invalidApply": "error",
+    "tailwindCSS.lint.invalidConfigPath": "error",
+    "tailwindCSS.lint.invalidScreen": "error",
+    "tailwindCSS.lint.invalidTailwindDirective": "error",
+    "tailwindCSS.lint.invalidVariant": "error",
+    "tailwindCSS.lint.recommendedVariantOrder": "warning",
+    "tailwindCSS.lint.suggestCanonicalClasses": "warning",
+    "tailwindCSS.lint.usedBlocklistedClass": "warning",
+    "tailwindCSS.rootFontSize": 16,
+    "tailwindCSS.showPixelEquivalents": true,
+    "tailwindCSS.suggestions": true,
+    "tailwindCSS.validate": true,
+    "tailwindcss-intellisense.trace.server": "messages",
+    "window.density.layout": "compact",
+    "window.zoomLevel": 1.2,
+    "workbench.activityBar.compact": true,
+    "workbench.activityBar.location": "bottom",
     "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
-    "workbench.iconTheme": "material-icon-theme",
-  },
+    "workbench.iconTheme": "material-icon-theme"
+  }
 }
